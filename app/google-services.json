@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "827066675066",
+    "project_id": "ac2java",
+    "storage_bucket": "ac2java.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827066675066:android:0a6da68f5083b7e71e30c3",
+        "android_client_info": {
+          "package_name": "com.company.gerenciador"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkJn-U7SHr6LKoshrIPWiVCFkDkzWDuwM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

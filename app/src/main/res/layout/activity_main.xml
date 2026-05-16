@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cadastro de Filmes e Séries"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nome"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tipo" />
+
+        <Spinner
+            android:id="@+id/spinnerTipo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gênero" />
+
+        <Spinner
+            android:id="@+id/spinnerGenero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/editAno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ano de lançamento"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editNota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nota pessoal"
+            android:inputType="numberDecimal" />
+
+        <CheckBox
+            android:id="@+id/checkAssistiu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Já assistiu?" />
+
+        <Button
+            android:id="@+id/btnSalvar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salvar" />
+
+        <Button
+            android:id="@+id/btnLimpar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Limpar edição" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Filtros e busca"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editBusca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Buscar por nome"
+            android:inputType="text" />
+
+        <Spinner
+            android:id="@+id/spinnerFiltroTipo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/checkFiltroAssistidos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mostrar apenas já assistidos" />
+
+        <ListView
+            android:id="@+id/listViewObras"
+            android:layout_width="match_parent"
+            android:layout_height="430dp" />
+
+    </LinearLayout>
+</ScrollView>
