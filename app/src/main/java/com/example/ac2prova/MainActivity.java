@@ -182,7 +182,7 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
-        boolean filmeOuSerie = spinnerTipo.getSelectedItemPosition() == 2; // false = Filme, true = Série
+        boolean filmeOuSerie = spinnerTipo.getSelectedItemPosition() == 2;
         boolean seJaViuOuN = checkAssistiu.isChecked();
         String genero = spinnerGenero.getSelectedItem().toString();
 
